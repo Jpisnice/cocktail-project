@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourites</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+    </div>
+    <div class="grid-fav"><h1>Hi</h1></div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <span class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </span>
+    
+            <br>
+            <h1 id="modal-title"></h1>
+            <div class="image"><img id="modal-image" src="" alt="Cocktail Image" /></div>
+            <h3>Ingredients:</h3>
+            <ul id="modal-ingredients"></ul>
+            <h3>Instructions:</h3>
+            <p id="modal-instructions"></p>
+        </div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+    <script src="fav.js" type="text/javascript"></script>
+    <script src="wishlist.js" type="text/javascript"></script>
+</body>
+</html>
